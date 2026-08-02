@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-Bv0JxpqV.js";import{r as t,t as n}from"./dist-CuF7S7F6.js";var ShareWeb;e((()=>{t(),ShareWeb=class extends n{async canShare(){return typeof navigator>`u`||!navigator.share?{value:!1}:{value:!0}}async share(e){if(typeof navigator>`u`||!navigator.share)throw this.unavailable(`Share API not available in this browser`);return await navigator.share({title:e.title,text:e.text,url:e.url}),{}}}}))();export{ShareWeb};
+//# sourceMappingURL=web-CSHXW1Ww.js.map
